@@ -1,0 +1,14 @@
+name       : python-scandir
+version    : '1.5'
+release    : 1
+source     :
+    - https://github.com/benhoyt/scandir/archive/v1.5.tar.gz : 3b2be74e0be665d22adaf841d1cadab7ed4aa2001a9bb81452e0f498cd0780d8
+license    : BSD-3-Clause
+component  : programming.python
+summary    : Better directory iterator and faster os.walk(), now in the Python 3.5 stdlib.
+description: |
+    Better directory iterator and faster os.walk(), now in the Python 3.5 stdlib.
+setup      : |
+    %python_setup
+install    : |
+    %python_install
