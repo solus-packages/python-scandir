@@ -2,8 +2,8 @@
     <Source>
         <Name>python-scandir</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <PartOf>programming.python</PartOf>
@@ -20,18 +20,18 @@
         <PartOf>programming.python</PartOf>
         <Files>
             <Path fileType="library">/usr/lib/python2.7/site-packages/_scandir.so</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/scandir-1.6-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/scandir-1.7-py2.7.egg-info</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/scandir.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/scandir.pyc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-02-07</Date>
-            <Version>1.6</Version>
+        <Update release="5">
+            <Date>2018-02-13</Date>
+            <Version>1.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
         </Update>
     </History>
 </PISI>
